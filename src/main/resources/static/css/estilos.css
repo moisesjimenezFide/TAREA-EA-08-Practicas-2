@@ -1,0 +1,98 @@
+body {
+    box-sizing: border-box;
+    margin: 0; 
+    background-color: white;
+}
+
+.encabezado{
+    position: fixed;
+    background-color: darkseagreen;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    
+}
+
+.navegacion{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+    
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    line-height:  80px;
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 80px;
+    list-style: none;
+}
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 20px;
+    line-height:  50px;
+}
+
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+.nav-menu-link:hover{
+    background-color: black;
+    animation-delay: 0.5s;
+}
+
+aside{
+    position: fixed;
+    background-color: papayawhip;
+    color: black;
+    top: 80px;
+    left: 0;
+    bottom: 20px;
+    width: 10%;
+}
+
+section{
+    position: fixed;
+    overflow-y: scroll;
+    background-color: whitesmoke;
+    color: black;
+    top: 80px;
+    left: 10%;
+    bottom: 20px;
+    width: 90%;
+}
+
+footer{
+    position: fixed;
+    text-align: left;
+    background-color: black;
+    color: white;
+    left: 0;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+    color: black;
+}
+tr:nth-child(even) {
+    background-color: darkseagreen;
+    color: white;
+}
